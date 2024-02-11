@@ -14,23 +14,6 @@
             "type": "image/png"
         }
     ],
-    "screenshots": [
-        {
-         "src": "assets/images/lessoncart-logo-512.png",
-          "sizes": "512x512",
-          "type": "image/gif",
-          "form_factor": "wide",
-          "label": "LessonCart",
-          "description": "Online Lesson booking App."
-        },
-        {
-            "src": "assets/images/lessoncart-logo-512.png",
-             "sizes": "512x512",
-             "type": "image/gif",
-             "label": "LessonCart",
-             "description": "Online Lesson booking App."
-           }
-    ],
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#260bca"
