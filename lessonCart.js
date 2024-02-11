@@ -293,6 +293,10 @@ var webstore = new Vue({
 
   },
   created: function () {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+
     fetch(this.URL + "/lessons/20/subject/asc").then(
       function (response) {
         response.json().then(
