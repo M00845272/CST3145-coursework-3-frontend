@@ -29,16 +29,14 @@ body {
 }
 
 .verify-container {
-  display: flex;
   align-items: center;
 }
 
 .verify {
   margin-top: 20px;
-  width: 70%;
   display: block;
   padding: 9.5px;
-  margin: 0 0 10px;
+  margin: 0px 10px 0px 10px;
   font-size: 13px;
   line-height: 1.42857143;
   color: #333;
@@ -111,6 +109,7 @@ body {
 
 .lesson-detail-pair {
   display: flex;
+  width: max-content;
 
   .lesson-label {
     width: 30%;
@@ -128,7 +127,7 @@ body {
   justify-content: center;
 
   .add-cart-button {
-    width: 30%;
+    width: max-content;
   }
 }
 
@@ -153,7 +152,8 @@ body {
 }
 
 .checkout-form-column {
-  width: 50%;
+  display: grid;
+    position: relative;
 }
 
 .input-error {
@@ -222,7 +222,7 @@ body {
 }
 
 .sort-options {
-  width: 16%;
+  width: max-content;
   color: #100a04;
   border-radius: 25px;
   float: right !important;
@@ -230,7 +230,7 @@ body {
 }
 
 .sort-order {
-  width: 10%;
+  width: max-content;
   color: #100a04;
   border-radius: 25px;
   float: right !important;
