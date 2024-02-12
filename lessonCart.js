@@ -33,7 +33,7 @@ var webstore = new Vue({
     },
     lessons: {},
     cart: [],
-    URL: 'https://lessoncart-backend-env.eba-zpnrayrg.eu-west-2.elasticbeanstalk.com'
+    URL: 'https://www.lessoncart.uk'
     //URL: 'http://localhost:3000'
   },
   watch: {
